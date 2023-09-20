@@ -1,4 +1,4 @@
-unction divideAndConquerSum(a) {
+function divideAndConquerSum(a) {
     if (a.length === 0) {
         return 0;
     } else if (a.length <= 3) {
