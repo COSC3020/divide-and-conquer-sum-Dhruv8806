@@ -30,17 +30,29 @@ most important part. Add your answer to this markdown file.
 Explanation: 
 
 T(n) = 3T(n/3)+ 3
+
 T(n/3) = 3T(n/9) + 3
+
 T(n) = 3(3T(n/9)+3 )+ 3 
+
 T(n) =3^2 T(n/3^2)+9 + 3 
+
 T(n) = 9T(n/9)+9+3
+
 T(n) = 9(3T(n/27)+3)+9+3
+
 T(n) =3^i T (n/3^i) 
-i =lg3n
+
+i = lg3n
+
 T(n) = 3^lg3n T (n/3^lg3n)      
+
 3^lg3n = n  
+
 T (n/3i) = 1
+
 3i=n
+
 Based on the above explanation. The run time will be $\Theta$(n)
 
 Sources used: 
