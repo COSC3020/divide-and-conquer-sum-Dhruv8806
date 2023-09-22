@@ -45,7 +45,7 @@ T(n) =3^i T (n/3^i)
 
 i = lg3n
 
-$`T(n) = 3^lg_3 n T (n/3^lg_3 n)$`     
+$`T(n) = 3^lg_3 n T (n/3^lg_3 n) `$     
 
 3^lg3n = n  
 
