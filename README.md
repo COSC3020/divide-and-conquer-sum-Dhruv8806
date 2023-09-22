@@ -45,13 +45,13 @@ T(n) =3^i T (n/3^i)
 
 i = lg3n
 
-$`T(n) = 3^lg_3 n T (n/3^lg_3 n) `$     
+$` T(n) = 3^lg_3 n T (n/3^lg_3 n) `$    
 
 3^lg3n = n  
 
 T (n/3i) = 1
 
-3i=n
+$` 3^i=n `$ 
 
 Based on the above explanation. The run time will be $\Theta$(n)
 
