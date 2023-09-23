@@ -35,21 +35,21 @@ T($\frac{n}{3}$) = 3T($\frac{n}{9}$) + 3
 
 T(n) = 3(3T($\frac{n}{9}$)+3 )+ 3 
 
-T(n) = $3^2$ T($\frac{n}{3^9}$) + 9 + 3
+T(n) = $3^2$ T($\frac{n}{3^2}$) + 9 + 3
 
-$` T(n) = 9T(n/9)+9+3 `$
+T(n) = 9T($\frac{n}{9}$)+9+3 
 
-$` T(n) = 9(3T(n/27)+3)+9+3 `$
+T(n) = 9(3T($\frac{n}{27}$)+3)+9+3
 
-$` T(n) =3^i T (n/3^i) `$
+T(n) = $3^i$ T ($\frac{n}{3^i}$) 
 
-$` i = (lg_3 n) `$
+i = $\lg_{3}n$
 
-$` T(n) = 3^(lg_3(n)) T (n/3^(lg_3(n))) `$    
+T(n) = $\3^lg_{3}n$ T ($\frac{n}{3^lg_{3}n}$)     
 
-$` 3^(lg_3(n)) = n  `$
+$\3^lg_{3}n$ = n 
 
-$` T (n/3^i) = 1 `$
+T ($\frac{n}{3^i}$) = 1 
 
 $` 3^i=n `$ 
 
@@ -57,3 +57,5 @@ Based on the above explanation. The run time will be $\Theta$(n)
 
 Sources used: 
 Firstly, I was a bit lost so I had a look at this website https://www.geeksforgeeks.org/how-to-analyse-complexity-of-recurrence-relation/ to get a better understanding of the problem. Then after all that I solved the problem by looking at the mergesort example lecture notes. I was slightly off and got a bit confused at the end, so I talked with TA about it and TA helped me out in the lab time. I even discussed with one of our classmates Ziyu wang about the problem. Afterall, That I understood the concept and came to my conclusion answer. 
+
+https://jojozhuang.github.io/tutorial/mathjax-cheat-sheet-for-mathematical-notation/   -> Had a look at this website for writing mathematical notations in github and make it look more neat.
