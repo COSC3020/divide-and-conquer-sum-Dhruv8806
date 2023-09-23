@@ -29,7 +29,7 @@ most important part. Add your answer to this markdown file.
 
 Explanation: 
 
-$`T(n) = 3T(n/3)+ 3`$
+$`T(n) = 3T($\frac{n}{3}$)+ 3`$
 
 $`T(n/3) = 3T(n/9) + 3`$
 
@@ -45,9 +45,9 @@ $` T(n) =3^i T (n/3^i) `$
 
 $` i = (lg_3 n) `$
 
-$` T(n) = 3^(lg_3 n) T (n/3^(lg_3 n)) `$    
+$` T(n) = 3^(lg_3(n)) T (n/3^(lg_3(n))) `$    
 
-$` 3^(lg_3n) = n  `$
+$` 3^(lg_3(n)) = n  `$
 
 $` T (n/3^i) = 1 `$
 
