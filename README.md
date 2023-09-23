@@ -29,7 +29,7 @@ most important part. Add your answer to this markdown file.
 
 Explanation: 
 
-$`T(n) = 3T($\frac{n}{3}$)+ 3`$
+T(n) = 3T($\frac{n}{3}$)+ 3
 
 $`T(n/3) = 3T(n/9) + 3`$
 
